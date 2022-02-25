@@ -53,7 +53,7 @@ async function getQuotes() {
         apiQuotes = await response.json();
         newQuote();
     } catch (error) {
-        alert(`Error: ${error}`);
+        alert("Opps! No quote available. Try again :)");
     }
 }
 
